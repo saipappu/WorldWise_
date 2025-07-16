@@ -22,10 +22,9 @@ struct ContentView: View {
                     Text("WorldWise 🌍")
                         .font(.system(size:42, weight: .heavy, design: .rounded))
                         .bold()
-                        .padding(15)
-                    Text("CHOOSE A COUNTRY TO EXPLORE! ")
-                        .padding(5)
-                        .font(.system(size:18, weight: .heavy, design: .rounded))
+                    Text("CHOOSE A COUNTRY TO EXPLORE: ")
+                        .padding()
+                        .font(.system(size:18, design: .rounded))
                         .padding(.bottom, 2)
 
                     NavigationLink(destination: franceview()){
