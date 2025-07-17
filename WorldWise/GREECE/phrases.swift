@@ -1,14 +1,14 @@
 //
-//  HhistoryVview.swift
+//  phrases.swift
 //  WorldWise
 //
-//  Created by Yuri Hiraiwa on 7/17/25.
+//  Created by Sai Pappu on 7/17/25.
 //
 
 import Foundation
 import SwiftUI
 
-struct PphrasesVview: View {
+struct phrases: View {
     var body: some View {
         ScrollView {
             Spacer()
@@ -19,81 +19,81 @@ struct PphrasesVview: View {
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
                     .padding()
-                    .background(Color(red: 0.8196078431372549, green: 0.8470588235294118, blue: 0.7450980392156863))
+                    .background(Color(red: 0.75, green: 0.85, blue: 0.95))
                     .cornerRadius(15)
 
-                Text("Learn some essential German phrases for your trip!")
+                Text("Learn some essential Greek phrases for your trip!")
                     .font(.footnote)
                     .multilineTextAlignment(.center)
                     .padding(.bottom)
             }
 
             VStack {
-                Text("Hallo – Hello")
+                Text("Yiasou (γεια σου) – Hello (informal)")
                     .font(.headline)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
                     .padding(.all)
             }
-            .background(Color(red: 0.8196078431372549, green: 0.8470588235294118, blue: 0.7450980392156863))
+            .background(Color(red: 0.75, green: 0.85, blue: 0.95))
             .cornerRadius(15)
             .padding()
 
             VStack {
-                Text("Danke – Thank you")
+                Text("Efharisto (ευχαριστώ) – Thank you")
                     .font(.headline)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
                     .padding(.all)
             }
-            .background(Color(red: 0.8196078431372549, green: 0.8470588235294118, blue: 0.7450980392156863))
+            .background(Color(red: 0.75, green: 0.85, blue: 0.95))
             .cornerRadius(15)
             .padding()
 
             VStack {
-                Text("Bitte – Please / You're welcome")
+                Text("Parakalo (παρακαλώ) – Please / You're welcome")
                     .font(.headline)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
                     .padding(.all)
             }
-            .background(Color(red: 0.8196078431372549, green: 0.8470588235294118, blue: 0.7450980392156863))
+            .background(Color(red: 0.75, green: 0.85, blue: 0.95))
             .cornerRadius(15)
             .padding()
 
             VStack {
-                Text("Ja – Yes")
+                Text("Ne (ναι) – Yes")
                     .font(.headline)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
                     .padding(.all)
             }
-            .background(Color(red: 0.8196078431372549, green: 0.8470588235294118, blue: 0.7450980392156863))
+            .background(Color(red: 0.75, green: 0.85, blue: 0.95))
             .cornerRadius(15)
             .padding()
 
             VStack {
-                Text("Nein – No")
+                Text("Ohi (όχι) – No")
                     .font(.headline)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
                     .padding(.all)
             }
-            .background(Color(red: 0.8196078431372549, green: 0.8470588235294118, blue: 0.7450980392156863))
+            .background(Color(red: 0.75, green: 0.85, blue: 0.95))
             .cornerRadius(15)
             .padding()
 
             VStack {
-                Text("Entschuldigung – Excuse me / Sorry")
+                Text("Kalimera (καλημέρα) – Good morning")
                     .font(.headline)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.center)
                     .padding(.all)
             }
-            .background(Color(red: 0.8196078431372549, green: 0.8470588235294118, blue: 0.7450980392156863))
+            .background(Color(red: 0.75, green: 0.85, blue: 0.95))
             .cornerRadius(15)
             .padding()
-
+            
             Spacer()
         }
         .navigationTitle("Phrases")
@@ -101,5 +101,5 @@ struct PphrasesVview: View {
 }
 
 #Preview {
-    PphrasesVview()
+    phrases()
 }

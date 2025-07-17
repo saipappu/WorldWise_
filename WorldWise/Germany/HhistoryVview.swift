@@ -28,9 +28,6 @@ struct HhisotryVview: View {
                         .padding(.horizontal)
                     
                     VStack{
-                        
-                        Text("The area of Germany as we know it today was formerly inhabited by Germanic tribes during the Bronze Age.")
-                            .padding([.top, .leading])
                         Text("The German Confederation was formed in 1815, after the fall of Napoleon, and was a collection of 39 loosely associated German-speaking states. Under the leadership of Otto Von Bismarck, in 1871, the German Confederation was united under one as the German Empire.")
                             .padding(.horizontal)
                         Text("After World War I, the then-defeated Germany abolished its monarchy and formed the Weimar Republic. However, the economy remained unstable, and the country continued to struggle with political unrest and heavy war reparations. The great depression struck Germany in 1929 and worsened the already fragile economy. This led to fear of a communist uprising among the higher class. The Nationalist Socialist German Worker’s Party (NSDAP), led by Adolf Hitler, capitalized on this fear and gained massive public support.")
@@ -69,7 +66,7 @@ struct HhisotryVview: View {
                 }
                 
             }
-                .navigationTitle("Phrases")
+                .navigationTitle("History")
             
         }
     }

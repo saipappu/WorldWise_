@@ -28,7 +28,7 @@ struct historyview: View {
                             .multilineTextAlignment(.center)
                             .padding([.top, .leading, .trailing])
                         
-                        Text("Prehistoric Period.")
+                        Text("Prehistoric Period")
                             .font(.title3)
                             .fontWeight(.bold)
                             .multilineTextAlignment(.center)
