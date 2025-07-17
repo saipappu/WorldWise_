@@ -13,7 +13,7 @@ struct CuisineView: View {
         
         ScrollView{
             VStack(spacing: 20) {
-                Text("🍽️Cuisine in Japan")
+                Text("🍽️ Cuisine in Japan")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .padding()

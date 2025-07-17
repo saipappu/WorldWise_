@@ -12,9 +12,10 @@ struct PhrasesView: View {
     var body: some View {
         ScrollView{ Spacer()
             VStack (spacing: 20) {
-                Text("🗣️Phrases")
+                Text("🗣️ Common Phrases")
                     .font(.largeTitle)
                     .padding(.all)
+                    .fontWeight(.bold)
                     .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(red: 0.9294117647058824, green: 0.9098039215686274, blue: 0.8627450980392157)/*@END_MENU_TOKEN@*/).cornerRadius(15)
                  
                 
