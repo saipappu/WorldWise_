@@ -98,7 +98,7 @@ struct indiaview: View {
                 
                 Spacer()
             }
-            .background(Color(red: 1.0, green: 0.95, blue: 0.90).edgesIgnoringSafeArea(.all))
+            .background(Color.white.edgesIgnoringSafeArea(.all))
             .navigationTitle("India")
         }
     }
