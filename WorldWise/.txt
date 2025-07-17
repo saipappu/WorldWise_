@@ -1,0 +1,11 @@
+  NavigationStack{
+              
+                List{
+                    NavigationLink("History", destination: HhisotryView())
+                    NavigationLink("Culture",destination: CcultureView())
+                    NavigationLink("Mannerisms", destination: MmannerismsView())
+                    NavigationLink("Important Phrases", destination: PphrasesView())
+                    
+                }
+            }
+            .navigationTitle("France")
