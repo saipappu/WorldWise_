@@ -9,6 +9,7 @@ import SwiftUI
 
 struct franceview: View {
     var body: some View {
+
         Text("🇫🇷 Welcome to France!")
             .font(.system(size:35))
         Text("Bienvenue en France!")
@@ -18,7 +19,8 @@ struct franceview: View {
             .padding(10)
 
 
-            
+
+
             Spacer()
             NavigationStack{
                 
@@ -38,7 +40,11 @@ struct franceview: View {
             
             
         }
+
     }
+
+
+    }}
 
 
     #Preview {
