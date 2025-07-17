@@ -20,7 +20,7 @@ struct CcultureVview: View {
                     .background(Color(red: 0.8196078431372549, green: 0.8470588235294118, blue: 0.7450980392156863))
                     .cornerRadius(15)
 
-                Text("Discover Germany's rich cultural tapestry, from core values to iconic traditions.")
+                Text("Discover Germany's rich culture and iconic traditions.")
                     .font(.footnote)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal)
@@ -31,7 +31,7 @@ struct CcultureVview: View {
                         .fontWeight(.bold)
                         .multilineTextAlignment(.center)
                         .padding(.horizontal)
-                    Text("Punctuality is not merely a courtesy in Germany; it's a fundamental aspect of respect and reliability. Whether for social gatherings, business meetings, or public transport, arriving on time, or even a few minutes early, is expected. This value extends to a general appreciation for order and efficiency in all aspects of life, from meticulous planning to adherence to rules and regulations.")
+                    Text("Whether for social gatherings, business meetings, or public transport, arriving on time, or even a few minutes early, is expected. This value extends to a general appreciation for order and efficiency in all aspects of life, from meticulous planning to adherence to rules and regulations.")
                         .font(.headline)
                         .padding(.horizontal)
 
@@ -40,7 +40,7 @@ struct CcultureVview: View {
                         .fontWeight(.bold)
                         .multilineTextAlignment(.center)
                         .padding(.horizontal)
-                    Text("Germans typically prefer clear, direct, and factual communication. Ambiguity is often avoided, and 'yes' means yes, and 'no' means no. While this can sometimes be perceived as blunt by other cultures, it is generally intended to be honest and efficient, leading to clear understanding and effective problem-solving.")
+                    Text("Germans typically prefer clear and direct communication. 'Yes' means yes, and 'no' means no. While this can sometimes be perceived as blunt by other cultures, it is generally intended to be honest and efficient, leading to a clear understanding.")
                         .font(.headline)
                         .padding(.horizontal)
 
@@ -117,15 +117,6 @@ struct CcultureVview: View {
                     Text("A beloved German tradition, these markets transform town squares into festive hubs during Advent. Visitors can enjoy mulled wine (Glühwein), roasted almonds, gingerbread, handcrafted gifts, and traditional German Christmas decorations. Each city's market has its unique charm and specialties.")
                         .font(.headline)
                         .padding(.horizontal)
-
-                    Text("Carnival/Fasching/Karneval")
-                        .font(.headline)
-                        .fontWeight(.bold)
-                        .multilineTextAlignment(.center)
-                        .padding(.horizontal)
-                    Text("Known by different names across regions, this vibrant pre-Lenten festival is particularly strong in cities like Cologne, Mainz, and Düsseldorf. It involves parades, costumes, music, and festive gatherings, often with political satire and a cheerful, rebellious spirit before the solemn period of Lent.")
-                        .font(.headline)
-                        .padding([.leading, .bottom, .trailing])
                 }
                 .background(Color(red: 0.8196078431372549, green: 0.8470588235294118, blue: 0.7450980392156863))
                 .cornerRadius(15)
