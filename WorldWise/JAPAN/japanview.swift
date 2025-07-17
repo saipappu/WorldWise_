@@ -31,8 +31,12 @@ struct japanview: View {
                     NavigationLink("Important Phrases", destination: PhrasesView())
                     
                 }
+
                 Spacer()
                 
+
+                    
+
                 
             }
             .padding()
