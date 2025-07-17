@@ -9,15 +9,18 @@ import SwiftUI
 
 struct franceview: View {
     var body: some View {
-        VStack{
-            Text("🇫🇷 Welcome to France!")
-                .font(.system(size:35))
-            Text("Bienvenue en France!")
-                .font(.system(size:22))
-                .italic()
-            Text("‣ Explore the culture, cuisine, and beauty of France.")
-                .padding(10)
-            
+
+        Text("🇫🇷 Welcome to France!")
+            .font(.system(size:35))
+        Text("Bienvenue en France!")
+            .font(.system(size:22))
+            .italic()
+        Text("‣ Explore the culture, cuisine, and beauty of France.")
+            .padding(10)
+
+
+
+
             Spacer()
             NavigationStack{
                 
@@ -37,7 +40,12 @@ struct franceview: View {
             
             
         }
+
+    }
+
+
     }}
+
 
     #Preview {
         franceview()
