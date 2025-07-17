@@ -29,9 +29,22 @@
 		C80395282E27F02400C2FF9A /* WorldWiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldWiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BAB086922E29496900D2EE4B /* Exceptions for "WorldWise" folder in "WorldWise" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Untitled.swift,
+			);
+			target = C803950F2E27F02200C2FF9A /* WorldWise */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C80395122E27F02200C2FF9A /* WorldWise */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BAB086922E29496900D2EE4B /* Exceptions for "WorldWise" folder in "WorldWise" target */,
+			);
 			path = WorldWise;
 			sourceTree = "<group>";
 		};
