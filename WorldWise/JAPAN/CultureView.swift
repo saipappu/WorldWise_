@@ -15,7 +15,7 @@ struct CultureView: View {
                 Spacer(minLength: 10)
             
             VStack (spacing: 20) {
-                Text("Culture in Japan")
+                Text("🏯 Culture in Japan")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .padding()
