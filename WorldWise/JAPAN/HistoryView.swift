@@ -16,6 +16,7 @@ struct HistoryView: View {
                 VStack (spacing: 20){
                     Text("📜 History of Japan")
                         .font(.largeTitle)
+                        .fontWeight(.bold)
                         .padding()
                         .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(red: 0.929, green: 0.9098039215686274, blue: 0.8627450980392157)/*@END_MENU_TOKEN@*/).cornerRadius(15)
                         

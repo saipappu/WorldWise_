@@ -12,7 +12,6 @@ struct japanview: View {
         VStack{
             Text("🇯🇵 Welcome to Japan!")
                 .font(.system(size:35))
-                .multilineTextAlignment(.center)
                 .padding(.all)
             
             Text("   日本へようこそ！")
@@ -21,18 +20,21 @@ struct japanview: View {
             Text("‣ Explore the culture, cuisine, and beauty of Japan.")
                 .padding(10)
             
+            
             NavigationStack{
+              
                 List{
                     NavigationLink("Overview", destination: OverviewView())
                     NavigationLink("History", destination: HistoryView())
                     NavigationLink("Culture",destination: CultureView())
                     NavigationLink("Mannerisms", destination: MannerismsView())
                     NavigationLink("Cuisine", destination: CuisineView())
-                    NavigationLink("Tips", destination: TipsView())
                     NavigationLink("Important Phrases", destination: PhrasesView())
                     
                 }
                 Spacer()
+                    
+                
             }
             .padding()
         
