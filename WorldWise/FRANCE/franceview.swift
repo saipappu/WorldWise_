@@ -29,6 +29,7 @@ struct franceview: View {
                     NavigationLink("Culture",destination: CcultureView())
                     NavigationLink("Mannerisms", destination: MmannerismsView())
                     NavigationLink("Important Phrases", destination: PphrasesView())
+                    NavigationLink("Cuisine",destination: CcuisineView())
                     
                 }
               
