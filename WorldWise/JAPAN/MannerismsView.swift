@@ -14,7 +14,7 @@ struct MannerismsView: View {
             VStack{ Spacer(minLength:10)
                 
                 VStack (spacing: 20){
-                Text("🙇🙇‍♀️Mannerisms")
+                Text("Mannerisms 🙇🙇‍♀️")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .padding()
