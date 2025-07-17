@@ -16,7 +16,7 @@ struct HhisotryVview: View {
                     Text("📜 History of Germany")
                         .font(.largeTitle)
                         .fontWeight(.bold)
-                        .padding()
+                        .padding(.all)
                         .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(red: 0.82, green: 0.8470588235294118, blue: 0.7450980392156863)/*@END_MENU_TOKEN@*/).cornerRadius(15)
                     
                     
@@ -30,7 +30,7 @@ struct HhisotryVview: View {
                     VStack{
                         
                         Text("The area of Germany as we know it today was formerly inhabited by Germanic tribes during the Bronze Age.")
-                            .padding([.top, .leading, .trailing])
+                            .padding([.top, .leading])
                         Text("The German Confederation was formed in 1815, after the fall of Napoleon, and was a collection of 39 loosely associated German-speaking states. Under the leadership of Otto Von Bismarck, in 1871, the German Confederation was united under one as the German Empire.")
                             .padding(.horizontal)
                         Text("After World War I, the then-defeated Germany abolished its monarchy and formed the Weimar Republic. However, the economy remained unstable, and the country continued to struggle with political unrest and heavy war reparations. The great depression struck Germany in 1929 and worsened the already fragile economy. This led to fear of a communist uprising among the higher class. The Nationalist Socialist German Worker’s Party (NSDAP), led by Adolf Hitler, capitalized on this fear and gained massive public support.")
@@ -41,24 +41,28 @@ struct HhisotryVview: View {
                             .padding(.all)
                     }  .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(red: 0.82, green: 0.8470588235294118, blue: 0.7450980392156863)/*@END_MENU_TOKEN@*/).cornerRadius(15)
                         .padding()
-                    HStack{
-                        Image("Germany")
-                            .resizable(resizingMode: .stretch)
-                            .aspectRatio(contentMode: .fit)
-                            .padding([.leading, .bottom, .trailing])
-                        Text("After the end of the Second World War in Europe, the allies split Germany into four occupation zones, and Berlin into four sectors. This divided Berlin when they built a wall to stop East Germans from escaping to West Germany through Berlin. The wall separated loved ones from each other, restricted the freedom of movement.")
-                            .multilineTextAlignment(.leading)
-                            .padding([.top, .leading, .trailing])
-                    }
                     VStack{
-                        Text("The wall separated loved ones from each other, restricted the freedom of movement.")
-                    }.background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(red: 0.82, green: 0.8470588235294118, blue: 0.7450980392156863)/*@END_MENU_TOKEN@*/).cornerRadius(15)
+                        HStack{
+                            Image("Germany")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .padding(.horizontal)
+                            Text("After the end of the Second World War in Europe, the allies split Germany into four occupation zones, and Berlin into four sectors. This divided Berlin when they built a wall to stop East Germans from")
+                                .multilineTextAlignment(.leading)
+                                .padding([.top, .leading, .trailing])
+                        }
+                        VStack{
+                            Text("escaping to West Germany through Berlin. The wall separated loved ones from each other, restricted the freedom of movement.")
+                                .padding([.leading, .bottom, .trailing])
+                        }
+                    } .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(red: 0.82, green: 0.8470588235294118, blue: 0.7450980392156863)/*@END_MENU_TOKEN@*/).cornerRadius(15)
                         .padding()
+                    
                     VStack{
                         Text("East of Berlin was restricted, and there was less freedom and fewer opportunities compared to the West of Berlin. East Berliners experienced an overall lower quality of life compared to West Berliners, who had access to better housing, easy access to goods from the West, and more services. ")
                             .padding(.all)
                         Text("The Berlin Wall fell on November 9, 1989, after widespread protests and political changes. The reunification of Germany officially took place in the year 1990.")
-                            .padding(.all)
+                            .padding([.leading, .bottom, .trailing])
                     } .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(red: 0.82, green: 0.8470588235294118, blue: 0.7450980392156863)/*@END_MENU_TOKEN@*/).cornerRadius(15)
                         .padding()
                     
